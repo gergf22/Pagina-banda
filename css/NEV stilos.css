@@ -1,0 +1,322 @@
+html {
+    min-height: 100%;
+    position: relative;
+}
+
+body {
+    margin: 0%;
+    margin-bottom: 40px;
+    background: url(../imagenes/logos/logo\ 2.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position-x: 47%;
+    background-position-y: 50%;
+    background-attachment: fixed;
+
+}
+
+header{
+    max-width: 10%;
+    float: left;
+    display: inline-block;
+}
+
+
+.boton {
+    position: fixed;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    width: 30px;
+    background: white;
+    color: white;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.menu {
+    list-style: none;
+    padding: 0%;
+    padding-top: 10px;
+    margin: 0%;
+    color: white;
+    visibility: hidden;
+    margin-left: -100%;
+    margin-top: -100%;
+    transition: all 0.2s;
+    float: left;
+}
+
+.menuitem {
+    cursor: pointer;
+    display: block;
+    margin: 0%;
+    padding: 20px;
+    margin-top: 20px;
+    /* padding: 20px; */
+    color: white;
+    font-size: 1.2em;
+
+}
+
+.menuitem:hover{
+    color: rgb(168, 157, 157);
+    font-size: 1.3em;
+    
+}
+
+.mostrar {
+    margin-left: 0%;
+    margin-top: 10px;
+    visibility: visible;
+    position: fixed;
+}
+
+.historia {
+    background-attachment: fixed;
+    background-color: rgba(59, 57, 57, 0.5);
+    display: inline-block;
+    color: white;
+    text-align: center;
+/*     margin: 5%;
+    margin-top: 1% */
+    margin-left: -100%;
+    margin-top: -100%;
+    max-width: 1;
+    float:left
+    
+}
+
+h1{
+    font-size: 50;
+}
+p{
+    font-size: 25;
+}
+
+.hstria{
+    margin: 5%;
+    margin-top: 1%;
+    max-width: 100%;
+}
+
+.discos {
+    
+    display: inline-block;
+    position: inherit;
+/*     margin-left: 20%;
+    margin-top: 10%; */
+    width: 50%;
+    height: 50%;
+    visibility: hidden;
+    margin-left: -100%;
+    margin-top: -100%;
+}
+
+a {
+    margin-left: 35%;
+    margin-top: 50%;
+    
+}
+
+.ep {
+    margin-left: 20%;
+    margin-top: 10%;
+    visibility: visible;
+}
+
+.fotos {
+    float: left;
+    display: inline-block;
+    align-content: center;
+    /* margin-left: 25%;  */
+    visibility: hidden;
+    margin-left: -100%;
+    margin-top: -100%;
+}
+
+.foto {
+    padding-top: 50px;
+
+}
+
+.fts {
+    margin-left: 25%;
+    margin-top: 0%;
+    visibility: visible;
+}
+
+.videos {
+    display: block;
+    margin-top: 200px;
+    width: 560;
+    margin-left: 32%;
+    visibility: hidden;
+}
+
+.vds {
+    visibility: visible;
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 140px;
+    background-color: rgba(10, 10, 10, 0.7);
+    
+}
+
+.back {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 40%;
+    margin-left: 0;
+    margin: 0;
+    border: 0;
+    height: 100px;
+    bottom: 0; 
+}
+
+.btnprev {
+    float: right;
+    padding-top: 30px;
+    cursor: pointer;
+    
+}
+
+.play {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 20%;
+    margin: 0;
+    height: 100px;
+    bottom: 0;
+    }
+
+.btnplay {
+    padding-left: 39%;
+    padding-top: 10px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.btnplayno {
+    display: none;
+}
+
+.btnpause {
+    padding-left: 39%;
+    padding-top: 10px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.btnpausesi  {
+    visibility: visible;
+    padding-left: 39%;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.next {
+    float: left;
+    position: relative;
+    display: inline-block;
+    width: 39.5%;
+    height: 100px;
+    bottom: 0;
+}
+
+.btnnext {
+    float: left;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+
+.audio {
+    display: none;
+}
+
+.fobiasno {
+    display: none;
+    visibility: hidden;
+}
+.fobias {
+    float: left;
+    display: inline-block;
+    color: white;
+    align-content: center;
+    bottom: 1px; 
+    font-size: 15;
+    margin-bottom: 20;
+    padding-top: 0;
+    margin-left: 90px;
+
+    }
+
+.irreal {
+    float: left;
+    display: inline-block;
+    color: white;
+    align-content: center;
+    bottom: 1px; 
+    font-size: 15;
+    margin-bottom: 20;
+    padding-top: 0;
+    margin-left: 90px;
+}
+
+.Preparate {
+    float: left;
+    display: inline-block;
+    color: white;
+    align-content: center;
+    bottom: 1px; 
+    font-size: 15;
+    margin-bottom: 20;
+    padding-top: 0;
+    margin-left: 90px;
+}
+
+.quinientos {
+    float: left;
+    display: inline-block;
+    color: white;
+    align-content: center;
+    bottom: 1px; 
+    font-size: 15;
+    margin-bottom: 20;
+    padding-top: 0;
+    margin-left: 90px;
+}
+
+
+
+
+
+/* #playlist, audio{
+    background:#666;
+    width:400px;
+    padding:20px;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    text-decoration:none;
+  }
+  .active a {
+    color:#5DB0E6;
+    text-decoration:none;
+  }
+  li a{
+    color:#eeeedd;
+    background:#333;
+    padding:5px;
+    display:block;
+  }
+  li a:hover{
+    text-decoration:none;
+  } */
